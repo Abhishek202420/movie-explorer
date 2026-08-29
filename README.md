@@ -1,4 +1,4 @@
-# 🎬 Movie Explorer & Watchlist
+🎬 Movie Explorer & Watchlist
 
 A full-stack web application where users can search for movies using live data from **The Movie Database (TMDB) API**, create an account, and save movies to a personal watchlist.
 
@@ -6,14 +6,14 @@ Built as a learning project to understand how a React frontend, a Node.js/Expres
 
 ---
 
-## 🔗 Live Demo
+ 🔗 Live Demo
 
 - **Frontend:** _add your Vercel link here_
 - **Backend API:** _add your Render link here_
 
 ---
 
-## ✨ Features
+ ✨ Features
 
 - 🔍 Search for movies by title using the TMDB API
 - 🔐 User signup and login with hashed passwords and JWT-based authentication
@@ -24,32 +24,32 @@ Built as a learning project to understand how a React frontend, a Node.js/Expres
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
-**Frontend**
+ Frontend
 - React (Vite)
 - React Router
 - Axios
 - Context API (for auth state)
 
-**Backend**
+  Backend
 - Node.js
 - Express
 - MongoDB with Mongoose
 - JWT (jsonwebtoken) for authentication
 - bcryptjs for password hashing
 
-**External API**
+  External API
 - [TMDB API](https://www.themoviedb.org/documentation/api) for movie search and details
 
-**Deployment**
+  Deployment
 - Frontend: Vercel
 - Backend: Render
 - Database: MongoDB Atlas
 
 ---
 
-## 📁 Project Structure
+   📁 Project Structure
 
 ```
 movie-explorer/
@@ -81,20 +81,20 @@ movie-explorer/
 
 ---
 
-## 🚀 Getting Started Locally
+   🚀 Getting Started Locally
 
-### Prerequisites
+  Prerequisites
 - Node.js (v18+ recommended)
 - A free [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) account
 - A free [TMDB API key](https://www.themoviedb.org/settings/api)
 
-### 1. Clone the repo
+  1. Clone the repo
 ```bash
 git clone https://github.com/<your-username>/movie-explorer.git
 cd movie-explorer
 ```
 
-### 2. Set up the backend
+  2. Set up the backend
 ```bash
 cd backend
 npm install
@@ -114,7 +114,7 @@ npm run dev
 ```
 The API will run at `http://localhost:8000`.
 
-### 3. Set up the frontend
+   3. Set up the frontend
 ```bash
 cd ../frontend
 npm install
@@ -124,21 +124,21 @@ The app will run at `http://localhost:5173`.
 
 ---
 
-## 📡 API Endpoints
+  📡 API Endpoints
 
-### Auth
+   Auth
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/auth/signup` | Create a new user account |
 | POST | `/api/auth/login` | Log in and receive a JWT |
 
-### Movies
+   Movies
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/movies/search?query=` | Search movies by title (via TMDB) |
 | GET | `/api/movies/:id` | Get details for a specific movie |
 
-### Watchlist (requires `Authorization: Bearer <token>` header)
+   Watchlist (requires `Authorization: Bearer <token>` header)
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/watchlist` | Get the logged-in user's watchlist |
@@ -147,7 +147,7 @@ The app will run at `http://localhost:5173`.
 
 ---
 
-## 🧠 What I Learned
+   🧠 What I Learned
 
 - How to design a REST API with Express and connect it to MongoDB using Mongoose
 - How authentication actually works under the hood: password hashing with bcrypt, issuing and verifying JWTs, and protecting routes with middleware
@@ -158,7 +158,7 @@ The app will run at `http://localhost:5173`.
 
 ---
 
-## 🔮 Possible Future Improvements
+   🔮 Possible Future Improvements
 
 - Pagination for search results
 - Movie details page with cast, trailer, and overview
@@ -168,6 +168,6 @@ The app will run at `http://localhost:5173`.
 
 ---
 
-## 📄 License
+   📄 License
 
 This project is open source and available for learning purposes.
